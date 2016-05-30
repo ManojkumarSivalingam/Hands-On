@@ -1,0 +1,68 @@
+﻿<!--<div>Test {{Value}}</div>-->
+
+<div class="container-fluid">
+    <div class="onetab">
+        <h1>OneTap</h1>
+    </div>
+    <div class="adminhead">
+        <h5>Heading</h5>
+    </div>
+    <div class="adminhead" style="margin-top:5px;">
+        <form role="form">
+             
+                <div class="form-group">
+
+
+
+                    <label>Keyword</label>
+                    <div  class="form-group required"> <input type="text" class="form-control" ng-model="keyword" required="required"></div>
+                </div>
+                <div class="indent-medium">
+                    <ul>
+                        <li ng-repeat="channel in channellist" ng-model="channellist">
+                            <input type="checkbox" checkbox-group ng-model="channel.IsSelected" required />{{channel.NewsChannelName}}
+                        </li>
+                    </ul>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5>Change White Label</h5>
+                    <label>Name</label><br />
+                    <input type="text" class="form-control" ng-model="WLVName">
+                    <label>Logo</label>
+                    <input type="file" />
+                </div><br />
+                <div class="btnform">
+                    <input type="button" class="btn btn-info" value="GetHandlers" ng-click="getHandlers()">
+                    <input type="submit" class="btn btn-info" value="Save" ng-click="saveKeyWordcategory()">
+
+                </div><br />
+            </>
+</form>
+        
+    </div>
+    <div class="adminhead1">
+        <h5 style="margin-left:30px">Add Category Keywords</h5>
+        <div style="height:auto">
+           <form role="form" style="mar">
+                <div class="indent-medium2">
+                    <ul>
+                        <li ng-repeat="category in categorylist" ng-model="categorylist">
+                            <input type="checkbox" checkbox-group ng-model="category.IsSelected"/> {{category.CategoryName}}
+                            <tags-input ng-model="category.Keywords" ng-required="true" ></tags-input>
+                          
+
+                        </li>
+                    </ul>
+                </div><br />
+
+                <br />
+            </form>
+        </div>
+        <div class="btnform" style="margin-top:15%">
+            <input type="button" class="btn btn-info" value="Clear" ng-click="saveKeyWord()" ng-disabled="(selection.length<=0 || keyword.length<=0) && WLVName.length<=0">
+            <input type="submit" class="btn btn-info" value="Save" ng-click="saveKeyWordcategory()">
+            <input type="submit" class="btn btn-info" value="Sync" ng-click="saveKeyWordcategory()">
+        </div>
+    </div>
+</div> 

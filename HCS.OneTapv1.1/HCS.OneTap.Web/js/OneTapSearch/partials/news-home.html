@@ -1,0 +1,92 @@
+﻿
+
+<div class="container-fluid">
+    <div ng-if="!newsList">
+
+
+        <h3>Data Not Available</h3>
+    </div>
+    <div>
+        <h1>OneTap</h1>
+    </div>
+    <div id="myDiv" class="news-main">
+        <br />
+        
+        <div class="row-margin-0">
+            <div class="news-div" ng-repeat="news in newsList">
+                <div class="person-logo col-xs-3 col-sm-2 col-md-1">
+                    <img class="img-responsive" src="{{news.Imageurl}}" />
+                </div>
+                <div class="col-xs-5 col-sm-7 col-md-11">
+                    <b><p ng-bind-html="news.UserName" class="news-main-title"></p></b>
+                    <p ng-if="news.show!=true" ng-bind-html="news.ShortMessage"></p>
+                    <p ng-if="news.show==true" ng-bind-html="news.Message"></p>
+                    <a ng-click="news.show = true" ng-if="news.ShortMessage.length>250 && news.show!=true" style="color:crimson">Read More</a>
+                    <a ng-click="news.show = false" ng-if="news.show==true" style="color:crimson">Read Less</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <!--<div ng-if="NewSet==True">Refreshing......</div>-->
+            <div ng-if="NewSet==false"> No More News !!!</div>
+        </div>
+
+
+    </div>
+    
+    <!--<div ng-if="!cat_newslist">
+
+        <h3>Data Not Available</h3>
+    </div>-->
+
+<br/>
+    <div class="category_div" >
+        <ul class="nav navbar-nav" ng-repeat="category in categorylist" ng-model="categorylist">
+            <li><a ng-click="getCatnews(category.CategoryId)">{{category.CategoryName}}</a></li>
+        </ul>
+    </div>
+    <div class="row-margin-0 news-category" id="category-div-style">
+        <div class="slider-div col-md-1" ng-show="ShowSlider">
+            <a><span class="glyphicon glyphicon-chevron-left" ng-disabled="CurrentPage == 0" ng-click="CurrentPage=CurrentPage-1" /></a>
+            <!--{{CurrentPage+1}}/{{numberOfPages()}}-->
+        </div>
+            <div class="news-div category-news-div col-md-3 col-sm-6" ng-repeat="catnews in catNewsList | startFrom:CurrentPage*PageSize | limitTo:PageSize">
+                <div class="person-logo category-news-logo">
+                    <img class="img-responsive" src="{{catnews.Imageurl}}" width="100" height="100" />
+                </div>
+                <div>
+                    <b><p ng-bind-html="catnews.UserName" style="text-align:center"> </p></b>
+                    <p ng-if="catnews.show!=true" ng-bind-html="catnews.ShortMessage"></p>
+                    <p ng-if="catnews.show==true" ng-bind-html="catnews.Message"></p>
+                </div>
+                <div class="category-news-more">
+                    <a ng-click="catnews.show = true" ng-if="catnews.ShortMessage.length>250 && catnews.show!=true">Read More</a>
+                    <a ng-click="catnews.show = false" ng-if="catnews.show==true">Read Less</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        <div class="slider-div col-md-1" ng-show="ShowSlider">
+            <a><span class="glyphicon glyphicon-chevron-right" ng-disabled="CurrentPage >= catNewsList.length/PageSize - 1" ng-click="CurrentPage=CurrentPage+1" /></a>
+        </div>
+        <!--<div ng-if="NewSet==True">Refreshing......</div>-->
+        <div ng-if="NewSet==false"> No More News !!!</div>
+    </div>
+    </div>
+
+
+<!-- <p><input type="button" align="right" value="ClickMe" ng-click="Callme()" /></p>-->
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //$('#myDiv').height($(window).height() - 150);
+        //$('#myDiv').width($(window).width() - 20);
+    });
+    $(document).on('scroll', '#myDiv', function () {
+        angular.element(document.getElementById('OneTapWeb')).scope().GetNextPage();
+    });
+
+    $('#myDiv').on('scroll', function () {
+        angular.element(document.getElementById('OneTapWeb')).scope().GetNextPage();
+    });
+
+</script>

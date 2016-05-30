@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="HCS.OneTap.Services.OneTapNewsService" CodeBehind="OneTapNewsService.svc.cs" %>

@@ -1,0 +1,35 @@
+﻿<!--<div>Test {{Value}}</div>-->
+
+<div class="container-fluid">
+    <br />
+
+    <div class="container3">
+        <span style="font-size: 18px;">Add New Keyword</span><br />
+        <div class="indent-small">
+            KeyWord   <input type="text" ng-model="keyword" />
+            <!--</div><br />
+            <div class="container3">-->
+        </div>
+        <div class="indent-medium">
+            <div ng-repeat="channel in channellist" ng-model="channellist">
+                <input type="checkbox" checkbox-group ng-model="channel.IsSelected" />{{channel.NewsChannelName}}
+            </div>
+        </div>
+        <input type="button" value="GetHandlers" ng-click="getHandlers()" />
+    </div>
+
+
+
+    <br />
+    <div class="container4">
+        
+            <span style="font-size: 18px;">Change White Label</span><br />
+        <div class="indent-small">
+            Name <input type="text" ng-model="WLVName" /><br /> 
+            <!--Logo <input type="file" file-model="myFile" />--><br />
+            <!--<input type="button" value="Add" ng-click="addwhitelabel()"/>-->
+        </div>
+    </div>
+    <input type="button" value="Save" ng-click="saveKeyWord()" ng-disabled="(selection.length<=0 || keyword.length<=0) && WLVName.length<=0" />
+    <!--<input type="button" value="GetHandlers" ng-click="getHandlers()" />-->
+</div><br />

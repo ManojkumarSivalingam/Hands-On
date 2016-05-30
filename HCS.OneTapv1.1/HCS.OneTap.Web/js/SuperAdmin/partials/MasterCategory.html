@@ -1,0 +1,44 @@
+﻿<div class="container-fluid">
+    <div class="onetab">
+        <h1>OneTap</h1>
+    </div>
+    <div class="adminhead">
+        <h5>Heading</h5>
+    </div>
+    <div class="adminhead" style="margin-top:5px;">
+        <form role="form">
+            <div class="form-group">
+                <label>News Channel</label>
+                <input type="text" class="form-control" ng-model="NewsChannelName"><br />
+                <label>Category Name</label>
+                <!--<input type="text" class="form-control" ng-model="keyword"><br />-->
+                <angucomplete-alt id="ex1" placeholder="Search categories"
+                                  pause="100"
+                                  selected-object="Onchange"
+                                  description-field="CategoryId"
+                                  local-data="Categories"
+                                  search-fields="CategoryName"
+                                  title-field="CategoryName"
+                                  minlength="1"
+                                  input-changed="onTextChange"></angucomplete-alt>
+            </div>
+
+            <div ng-if="SelectedCategory.CategoryName">you have Selected <strong>{{SelectedCategory.CategoryName}}</strong></div>
+            <div ng-if="!SelectedCategory.CategoryName"><lable>Please Select a category to edit</lable></div>
+            <div class="btnform">
+                <input type="button" class="btn1 btn-info" value="Save/Update" ng-click="addCategory()">
+                <input type="submit" class="btn1 btn-info" value="Select All" ng-disabled="!gridApi.grid.options.multiSelect" ng-click="selectAll()">
+                <button type="button" class="btn1 btn-info" ng-click="clearAll()">Clear All</button>
+                <button type="button" class="btn1 btn-info" ng-click="deleteSelected()">Delete Selected</button>
+            </div>
+        </form>
+
+        <div id="grid1" ui-grid="gridOptions" ui-grid-selection class="grid" style="height:auto;overflow:auto"></div>
+    </div>
+    </div>
+            <script type="text/ng-template" id="customTemplate.html">
+                <a>
+                    <span bind-html-unsafe="match.label | typeaheadHighlight:query"></span>
+                    <i>({{match.model.capital}})</i>
+                </a>
+            </script>

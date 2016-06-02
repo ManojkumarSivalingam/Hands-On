@@ -1,0 +1,8 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\obj\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\obj\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\obj\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Interfaces\obj\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.pdb

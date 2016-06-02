@@ -1,0 +1,30 @@
+﻿<div ng-if="companies" ng-init="companyName='Hewlett Packard';">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="well well-sm">
+                <h5>Stocks Viewer</h5>
+                <h6>This would display all companies stock information with latest stock quotes.</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">Company Name:</span>
+                <input type="text" class="form-control"
+                       ng-model="companyName" aria-describedby="basic-addon1">
+            </div>
+        </div>
+    </div>
+
+    <br/>
+
+    <div class="row">
+        <div class="col-md-12">
+            <div ng-repeat="company in companies | filter: companyName | orderBy: 'name'">
+                <aditi-company-viewer company-details="company" />
+            </div>
+        </div>
+    </div>
+</div>

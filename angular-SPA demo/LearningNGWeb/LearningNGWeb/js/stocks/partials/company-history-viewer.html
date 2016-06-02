@@ -1,0 +1,54 @@
+﻿<div ng-init="noOfItems=5;displayType='Grid';">
+    <div class="input-group">
+        <input type="text" class="input-sm form-control" ng-model="noOfItems">
+        <div class="input-group-btn">
+            <button type="button" class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                Show<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li><a ng-click="noOfItems=5;">Last 5 Items</a></li>
+                <li><a ng-click="noOfItems=10;">Last 10 Items</a></li>
+                <li><a ng-click="noOfItems=50;">Last 50 Items</a></li>
+                <li role="separator" class="divider"></li>
+                <li>
+                    <a ng-click="noOfItems=null;">All Items</a>
+                </li>
+
+                <li>
+                    <a ng-click="displayType='Grid';">Grid</a>
+                </li>
+
+                <li>
+                    <a ng-click="displayType='Chart';">Chart</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div ng-if="displayType === 'Chart'">
+        <div id="chartArea"></div>
+        <aditi-chart-renderer chart-type="line"
+                              target-element="#chartArea"
+                              chart-data="stockHistoryChartData" />
+    </div>
+
+    <table ng-if="displayType==='Grid'" class="table table-responsive table-condensed">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Quotation</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr ng-repeat="historyItem in historyData | limitTo: noOfItems"
+                ng-class="{'highlight-good-quote': historyItem.quotation >= 800, 'highlight-bad-quote': historyItem.quotation <= 200}">
+                <td> {{ historyItem.time | date: 'hh:mm:ss' }} </td>
+                <td> {{ historyItem.quotation | currency: '$ ' }} </td>
+                <td> {{ historyItem.quotation | aditiFindStockType: 800 | aditiStockSymbol }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

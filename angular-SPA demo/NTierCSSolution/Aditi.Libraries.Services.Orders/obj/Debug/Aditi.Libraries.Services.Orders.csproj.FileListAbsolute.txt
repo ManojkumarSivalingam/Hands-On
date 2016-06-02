@@ -1,0 +1,7 @@
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Services.Orders\bin\Debug\Aditi.Libraries.Services.Orders.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Services.Orders\bin\Debug\Aditi.Libraries.Services.Orders.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Services.Orders\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Services.Orders\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Services.Orders\obj\Debug\Aditi.Libraries.Services.Orders.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Services.Orders\obj\Debug\Aditi.Libraries.Services.Orders.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Services.Orders\obj\Debug\Aditi.Libraries.Services.Orders.csprojResolveAssemblyReference.cache

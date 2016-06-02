@@ -1,0 +1,12 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\bin\Debug\Aditi.Libraries.Web.Models.Metadata.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\bin\Debug\Aditi.Libraries.Web.Models.Metadata.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.CustomerErrorResources.resources
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.csproj.GenerateResource.Cache
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\bin\Debug\Aditi.Libraries.Web.Models.Metadata.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\bin\Debug\Aditi.Libraries.Web.Models.Metadata.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.CustomerErrorResources.resources
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.csproj.GenerateResource.Cache
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Models.Metadata\obj\Debug\Aditi.Libraries.Web.Models.Metadata.pdb

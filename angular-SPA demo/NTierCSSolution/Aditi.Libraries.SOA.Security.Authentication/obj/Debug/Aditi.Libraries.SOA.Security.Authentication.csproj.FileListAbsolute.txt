@@ -1,0 +1,8 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\bin\Debug\Aditi.Libraries.SOA.Security.Authentication.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\bin\Debug\Aditi.Libraries.SOA.Security.Authentication.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\obj\Debug\Aditi.Libraries.SOA.Security.Authentication.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\obj\Debug\Aditi.Libraries.SOA.Security.Authentication.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\bin\Debug\Aditi.Libraries.SOA.Security.Authentication.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\bin\Debug\Aditi.Libraries.SOA.Security.Authentication.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\obj\Debug\Aditi.Libraries.SOA.Security.Authentication.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Security.Authentication\obj\Debug\Aditi.Libraries.SOA.Security.Authentication.pdb

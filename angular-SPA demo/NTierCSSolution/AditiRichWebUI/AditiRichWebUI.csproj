@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B8870F73-80B6-421A-825C-CAD253332D77}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AditiRichWebUI</RootNamespace>
+    <AssemblyName>AditiRichWebUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\justified-nav.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\favicon.ico" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="App_Code\CustomersViewHelper.cshtml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\AditiGlobalHeaderView.cshtml" />
+    <Content Include="Views\Shared\AditiGlobalNavigationView.cshtml" />
+    <Content Include="Views\Shared\AditiGlobalFooterView.cshtml" />
+    <Content Include="UnityConfiguration.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Customers\CustomersSearchPanelView.cshtml" />
+    <Content Include="Views\Customers\DisplayTemplates\Customer.cshtml" />
+    <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Customers\NewCustomer.cshtml" />
+    <Content Include="Views\Customers\SaveCustomerResult.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\DIConfiguration.cs" />
+    <Compile Include="App_Start\FilterProvidersConfiguration.cs" />
+    <Compile Include="App_Start\MetadataProvidersConfiguration.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\ServerCredentialsConfiguration.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aditi.Libraries.DI.Impl\Aditi.Libraries.DI.Impl.csproj">
+      <Project>{1fa0ff2f-e772-47da-bff5-8076c7992cfe}</Project>
+      <Name>Aditi.Libraries.DI.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.DI.Interfaces\Aditi.Libraries.DI.Interfaces.csproj">
+      <Project>{d0463052-fea1-4b4b-a157-b9d7d31d562a}</Project>
+      <Name>Aditi.Libraries.DI.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Contracts.Data\Aditi.Libraries.SOA.Contracts.Data.csproj">
+      <Project>{eea98980-e935-47f3-863a-751ccf18b140}</Project>
+      <Name>Aditi.Libraries.SOA.Contracts.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Contracts.Faults\Aditi.Libraries.SOA.Contracts.Faults.csproj">
+      <Project>{8e8b001b-7f4d-4a55-903e-9048195fa6f8}</Project>
+      <Name>Aditi.Libraries.SOA.Contracts.Faults</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Contracts.Services\Aditi.Libraries.SOA.Contracts.Services.csproj">
+      <Project>{982a1548-1098-44f4-8cc6-66546c72ddb4}</Project>
+      <Name>Aditi.Libraries.SOA.Contracts.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Proxies.Extensions\Aditi.Libraries.SOA.Proxies.Extensions.csproj">
+      <Project>{6481fc79-ade3-41db-a13a-d852402a5f00}</Project>
+      <Name>Aditi.Libraries.SOA.Proxies.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Proxies\Aditi.Libraries.SOA.Proxies.csproj">
+      <Project>{76e8f5aa-c894-4c95-bfe7-973ae99ead5f}</Project>
+      <Name>Aditi.Libraries.SOA.Proxies</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.Web.Controller.Interfaces\Aditi.Libraries.Web.Controller.Interfaces.csproj">
+      <Project>{f29fb554-e678-4545-a585-ff2d341740cc}</Project>
+      <Name>Aditi.Libraries.Web.Controller.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.Web.Extensibility.Filters\Aditi.Libraries.Web.Extensibility.Filters.csproj">
+      <Project>{6c5720e1-e1c6-40b4-b8a8-c4a1e0f6b895}</Project>
+      <Name>Aditi.Libraries.Web.Extensibility.Filters</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.Web.Extensibility.Impl\Aditi.Libraries.Web.Extensibility.Impl.csproj">
+      <Project>{1533416d-e37b-47a6-9ac5-12bd0d0766ef}</Project>
+      <Name>Aditi.Libraries.Web.Extensibility.Impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.Web.Extensibility.Interfaces\Aditi.Libraries.Web.Extensibility.Interfaces.csproj">
+      <Project>{f108ab44-aa06-474e-9b56-9ec72f42486b}</Project>
+      <Name>Aditi.Libraries.Web.Extensibility.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.Web.Extensibility\Aditi.Libraries.Web.Extensibility.csproj">
+      <Project>{7565c14b-521f-47a0-8039-3391d5d729ff}</Project>
+      <Name>Aditi.Libraries.Web.Extensibility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.Web.Models.Metadata\Aditi.Libraries.Web.Models.Metadata.csproj">
+      <Project>{d5e316f9-faf7-4be4-a2ef-c87bf7d93dd3}</Project>
+      <Name>Aditi.Libraries.Web.Models.Metadata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.Web.Models.Providers\Aditi.Libraries.Web.Models.Providers.csproj">
+      <Project>{c6986ead-8f63-44b8-871c-b47ad28623e2}</Project>
+      <Name>Aditi.Libraries.Web.Models.Providers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64486</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:64486/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

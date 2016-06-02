@@ -1,0 +1,130 @@
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\csc.exe
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\vbc.exe
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\JwtWebApi.dll.config
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\JwtWebApi.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\JwtWebApi.pdb
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\Antlr3.Runtime.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\Newtonsoft.Json.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Net.Http.Formatting.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Helpers.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Http.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Http.WebHost.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Mvc.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Optimization.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Razor.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.WebPages.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\WebGrease.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\Antlr3.Runtime.pdb
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\Newtonsoft.Json.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Net.Http.Formatting.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Helpers.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Http.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Http.WebHost.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Mvc.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Optimization.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Razor.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.WebPages.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\obj\Debug\JwtWebApi.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\obj\Debug\JwtWebApi.pdb
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\EntityFramework.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\EntityFramework.SqlServer.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\EntityFramework.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\EntityFramework.SqlServer.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\obj\Debug\JwtWebApi.csprojResolveAssemblyReference.cache
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\obj\Debug\JwtWebApi.Migrations.initial.resources
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\obj\Debug\JwtWebApi.csproj.GenerateResource.Cache
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Cors.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Http.Cors.dll
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\System.Web.Http.Cors.xml
+C:\Users\Stewart\Documents\Visual Studio 2015\Projects\Jwt-WebApi\src\JwtWebApi\bin\JWT.dll
+C:\Users\Ramkumar\Downloads\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.csprojResolveAssemblyReference.cache
+C:\Users\Ramkumar\Downloads\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.Migrations.initial.resources
+C:\Users\Ramkumar\Downloads\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.csproj.GenerateResource.Cache
+C:\Users\Ramkumar\Downloads\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.pdb
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.Migrations.initial.resources
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.csproj.GenerateResource.Cache
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\csc.exe
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\csc.exe.config
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\csc.rsp
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\csi.exe
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\csi.rsp
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\System.AppContext.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\System.Collections.Immutable.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\System.Console.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\System.IO.FileSystem.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\System.Reflection.Metadata.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\vbc.exe
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\vbc.exe.config
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\vbc.rsp
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\VBCSCompiler.exe
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\roslyn\VBCSCompiler.exe.config
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\JwtWebApi.dll.config
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\JwtWebApi.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\JwtWebApi.pdb
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\Antlr3.Runtime.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\EntityFramework.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\EntityFramework.SqlServer.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\JWT.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\Microsoft.Web.Infrastructure.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\Newtonsoft.Json.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Net.Http.Formatting.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Cors.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Helpers.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Http.Cors.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Http.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Http.WebHost.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Mvc.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Optimization.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Razor.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.WebPages.Deployment.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.WebPages.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.WebPages.Razor.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\WebGrease.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\Antlr3.Runtime.pdb
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\EntityFramework.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\EntityFramework.SqlServer.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\Newtonsoft.Json.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Http.Cors.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Net.Http.Formatting.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Helpers.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Http.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Http.WebHost.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Mvc.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Optimization.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.Razor.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.WebPages.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.WebPages.Deployment.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\bin\System.Web.WebPages.Razor.xml
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.dll
+E:\000 - Modern Web Training\Demos\Jwt-WebApi-master\src\JwtWebApi\obj\Debug\JwtWebApi.pdb

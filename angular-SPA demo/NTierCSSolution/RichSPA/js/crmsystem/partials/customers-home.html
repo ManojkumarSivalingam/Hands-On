@@ -1,0 +1,23 @@
+﻿<br/>
+
+<div class="row" ng-if="customers">
+    <div class="col-md-6">
+        <aditi-customers-viewer customers-list="customers" />
+    </div>
+
+    <div class="col-md-6">
+        <aditi-customer-details-viewer />
+    </div>
+</div>
+
+<div class="row" ng-if="!customers">
+    <div class="col-md-6">
+        <div class="well well-sm">
+            <h5>Loading ... Please Wait ...</h5>
+        </div>
+    </div>
+</div>
+
+<div>
+    <aditi-orders-viewer />
+</div>

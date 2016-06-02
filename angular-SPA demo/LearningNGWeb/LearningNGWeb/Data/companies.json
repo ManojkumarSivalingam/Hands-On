@@ -1,0 +1,52 @@
+﻿[
+    {
+        "id": "1",
+        "name": "Digital Matrix LLC",
+        "imageUrl": "/images/companies/company-1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Visteon Inc.",
+        "imageUrl": "/images/companies/company-2.png"
+    },
+    {
+        "id": "3",
+        "name": "PGE Corporation",
+        "imageUrl": "/images/companies/company-3.png"
+    },
+    {
+        "id": "4",
+        "name": "Hewlett Packard Enterprise",
+        "imageUrl": "/images/companies/company-4.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Techcom Systems",
+        "imageUrl": "/images/companies/company-5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "CapitalIT Systems",
+        "imageUrl": "/images/companies/company-6.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Elara Corporation",
+        "imageUrl": "/images/companies/company-7.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Teknologies Corporation",
+        "imageUrl": "/images/companies/company-8.jpg"
+    },
+    {
+        "id": "9",
+        "name": "XIntegral Systems",
+        "imageUrl": "/images/companies/company-9.jpg"
+    },
+    {
+        "id": "10",
+        "name": "APOL Systems",
+        "imageUrl": "/images/companies/company-10.png"
+    }
+]

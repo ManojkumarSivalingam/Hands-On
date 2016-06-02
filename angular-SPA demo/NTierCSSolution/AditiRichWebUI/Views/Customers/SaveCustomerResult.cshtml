@@ -1,0 +1,17 @@
+﻿@model bool
+
+<br />
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="well well-sm">
+            <h5>CRM System</h5>
+            <h6>Customer Information Processed Successfully, Status: @Model</h6>
+            <h6>Transaction Id for Reference: @Guid.NewGuid().ToString()</h6>
+        </div>
+
+        @Html.ActionLink( "Home", "Index", "Home" )
+        |
+        @Html.ActionLink( "New Customer", "NewCustomer", "Customers" )
+    </div>
+</div>

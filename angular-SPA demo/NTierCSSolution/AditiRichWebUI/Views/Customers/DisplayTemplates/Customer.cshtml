@@ -1,0 +1,54 @@
+﻿@model Customer
+
+<table class="table table-responsive table-bordered table-condensed table-striped">
+    <thead>
+        <tr>
+            <th>Property Name</th>
+            <th>Property Value</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>Customer Profile Id:</td>
+            <td>@Model.CustomerId</td>
+        </tr>
+
+        <tr>
+            <td>Business Contact Name:</td>
+            <td>@Model.CustomerName</td>
+        </tr>
+
+        <tr>
+            <td>Business Address:</td>
+            <td>@Model.Address</td>
+        </tr>
+
+        <tr>
+            <td>Total Credit Limit:</td>
+            <td>@Model.CreditLimit</td>
+        </tr>
+
+        <tr>
+            <td>Active Status:</td>
+            <td>
+                @Html.CheckBoxFor( model => model.ActiveStatus )
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email Address:</td>
+            <td>@Model.EmailId</td>
+        </tr>
+
+        <tr>
+            <td>Phone Number:</td>
+            <td>@Model.PhoneNumber</td>
+        </tr>
+
+        <tr>
+            <td>Remarks:</td>
+            <td>@Model.Remarks</td>
+        </tr>
+    </tbody>
+</table>

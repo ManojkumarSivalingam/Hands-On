@@ -1,0 +1,14 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.DataAccess.Interfaces.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.DataAccess.Interfaces.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\obj\Debug\Aditi.Libraries.DataAccess.Interfaces.csprojResolveAssemblyReference.cache
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\obj\Debug\Aditi.Libraries.DataAccess.Interfaces.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\obj\Debug\Aditi.Libraries.DataAccess.Interfaces.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.DataAccess.Interfaces.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.DataAccess.Interfaces.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\obj\Debug\Aditi.Libraries.DataAccess.Interfaces.csprojResolveAssemblyReference.cache
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\obj\Debug\Aditi.Libraries.DataAccess.Interfaces.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.DataAccess.Interfaces\obj\Debug\Aditi.Libraries.DataAccess.Interfaces.pdb

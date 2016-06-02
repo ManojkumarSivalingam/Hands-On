@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var service = '/api/customers';
+        
+        $.getJSON(service, function (data) {
+            console.log(JSON.stringify(data));
+        });
+    });
+</script>

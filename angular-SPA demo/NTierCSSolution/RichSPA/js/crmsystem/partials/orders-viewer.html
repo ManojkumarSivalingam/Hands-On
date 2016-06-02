@@ -1,0 +1,44 @@
+﻿<div class="row" ng-if="orders">
+    <div class="col-md-12">
+        <div class="well well-sm">
+            <h5>Orders Viewer (Customer: {{ selectedCustomerId }})</h5>
+            <h6>This would display all Orders of a specific customer.</h6>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <table class="table table-responsive table-condensed">
+            <thead>
+                <tr>
+                    <th>Order #</th>
+                    <th>Order Date</th>
+                    <th>Customer #</th>
+                    <th>Units</th>
+                    <th>Amount</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr ng-repeat="order in orders">
+                    <td> {{ order.OrderId }} </td>
+                    <td> {{ order.OrderDate | date: 'MM-dd-yyyy' }} </td>
+                    <td> {{ order.CustomerId }} </td>
+                    <td> {{ order.Units }} </td>
+                    <td> {{ order.Amount | currency: '$ ' }} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="col-md-6" ng-if="ordersChartData">
+        <div id="ordersPieChartData"></div>
+        
+        <div>
+            <aditi-chart-renderer chart-data="ordersChartData"
+                                  chart-type="pie"
+                                  target-element="#ordersPieChartData" />
+        </div>
+    </div>
+</div>

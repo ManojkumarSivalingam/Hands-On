@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5B83CAA-3B58-4F70-AC5E-33016E160D0E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aditi.Libraries.SOA.Impl</RootNamespace>
+    <AssemblyName>Aditi.Libraries.SOA.Impl</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomerService.cs" />
+    <Compile Include="ExceptionHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Aditi.Libraries.Business.Interfaces\Aditi.Libraries.Business.Interfaces.csproj">
+      <Project>{f5802d89-0d10-4f39-bbcf-1d23aca3b5d1}</Project>
+      <Name>Aditi.Libraries.Business.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Contracts.Data\Aditi.Libraries.SOA.Contracts.Data.csproj">
+      <Project>{eea98980-e935-47f3-863a-751ccf18b140}</Project>
+      <Name>Aditi.Libraries.SOA.Contracts.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Contracts.Faults\Aditi.Libraries.SOA.Contracts.Faults.csproj">
+      <Project>{8e8b001b-7f4d-4a55-903e-9048195fa6f8}</Project>
+      <Name>Aditi.Libraries.SOA.Contracts.Faults</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Aditi.Libraries.SOA.Contracts.Services\Aditi.Libraries.SOA.Contracts.Services.csproj">
+      <Project>{982a1548-1098-44f4-8cc6-66546c72ddb4}</Project>
+      <Name>Aditi.Libraries.SOA.Contracts.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

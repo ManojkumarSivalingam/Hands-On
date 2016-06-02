@@ -1,0 +1,10 @@
+﻿@using ( Html.BeginForm( "Search", "Customers" ) )
+{
+    <div>
+        <input type="text" id="searchString"
+               class="text-success" name="searchString"
+               placeholder="Type Customer Name to Search ...." />
+
+        <input type="submit" class="btn btn-info btn-sm" value="Search" />
+    </div>
+}

@@ -1,0 +1,24 @@
+﻿.aditi-image-header-style {
+    height: 30px;
+    width: 30px;
+}
+
+.aditi-image-body-style {
+    height: 150px;
+    width: 200px;
+}
+
+.aditi-gauge-body-style {
+    height: 250px;
+    width: 180px;
+}
+
+.highlight-good-quote {
+    background-color: green;
+    color: white;
+}
+
+.highlight-bad-quote {
+    background-color: red;
+    color: white;
+}

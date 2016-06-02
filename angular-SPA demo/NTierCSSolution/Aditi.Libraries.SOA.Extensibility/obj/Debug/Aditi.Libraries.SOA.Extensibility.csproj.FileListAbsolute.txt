@@ -1,0 +1,14 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.SOA.Extensibility.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.SOA.Extensibility.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.DI.Interfaces.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.DI.Interfaces.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\obj\Debug\Aditi.Libraries.SOA.Extensibility.csprojResolveAssemblyReference.cache
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\obj\Debug\Aditi.Libraries.SOA.Extensibility.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\obj\Debug\Aditi.Libraries.SOA.Extensibility.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.SOA.Extensibility.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.SOA.Extensibility.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.DI.Interfaces.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\bin\Debug\Aditi.Libraries.DI.Interfaces.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\obj\Debug\Aditi.Libraries.SOA.Extensibility.csprojResolveAssemblyReference.cache
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\obj\Debug\Aditi.Libraries.SOA.Extensibility.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Extensibility\obj\Debug\Aditi.Libraries.SOA.Extensibility.pdb

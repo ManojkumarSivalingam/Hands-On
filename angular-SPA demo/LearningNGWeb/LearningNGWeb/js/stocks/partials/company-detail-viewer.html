@@ -1,0 +1,63 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <img ng-src="{{ companyDetails.imageUrl }}"
+                 class="img img-circle aditi-image-header-style"
+                 title="{{ companyDetails.name }}" alt="Company Logo" />
+
+            {{ companyDetails.name }}
+        </h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-md-6">
+                <p>
+                    Video provides a powerful way to help you prove your point.
+                    When you click Online Video, you can paste in the embed code for the video you want to
+                    add. You can also type a keyword to search online for the video that best fits your document.
+                </p>
+                <p>
+                    To make your document look professionally produced, Word provides header, footer, cover page,
+                    and text box designs that complement each other. For example, you can add a
+                    matching cover page, header, and sidebar. Click Insert and then choose the elements
+                    you want from the different galleries.
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <img ng-src="{{ companyDetails.imageUrl }}"
+                     class="img img-rounded img-responsive aditi-image-body-style"
+                     title="{{ companyDetails.name }}" />
+            </div>
+            
+            <div class="col-md-3">
+                <ng-radial-gauge class="aditi-gauge-body-style" data="gaugeData" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group">
+                    <span class="input-group-addon">Refresh Interval</span>
+                    <input type="text"
+                           ng-model="refreshInterval"
+                           class="form-control" aria-label="Amount (to the nearest dollar)">
+                    <span class="input-group-addon"> (In Seconds) </span>
+                </div>
+
+                <br />
+
+                <div ng-if="stockQuotation">
+                    <button class="btn btn-sm btn-primary">
+                        <span> Current Stock Price : {{ stockQuotation | currency: '$ '}} </span>
+                        <span> {{ stockQuotation | aditiFindStockType: 800 | aditiStockSymbol }}</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-md-6" ng-if="stockHistory && stockHistory.length >= 1">
+                <aditi-company-stock-history-viewer history-data="stockHistory" />
+            </div>
+        </div>
+    </div>
+</div>

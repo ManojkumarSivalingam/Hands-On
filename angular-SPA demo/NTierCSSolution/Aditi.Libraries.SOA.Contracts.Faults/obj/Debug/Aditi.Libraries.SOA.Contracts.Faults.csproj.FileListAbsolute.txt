@@ -1,0 +1,14 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Faults.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Faults.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\obj\Debug\Aditi.Libraries.SOA.Contracts.Faults.csprojResolveAssemblyReference.cache
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\obj\Debug\Aditi.Libraries.SOA.Contracts.Faults.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\obj\Debug\Aditi.Libraries.SOA.Contracts.Faults.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Faults.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Faults.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\obj\Debug\Aditi.Libraries.SOA.Contracts.Faults.csprojResolveAssemblyReference.cache
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\obj\Debug\Aditi.Libraries.SOA.Contracts.Faults.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Faults\obj\Debug\Aditi.Libraries.SOA.Contracts.Faults.pdb

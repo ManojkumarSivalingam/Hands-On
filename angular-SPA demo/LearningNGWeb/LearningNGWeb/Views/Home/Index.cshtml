@@ -1,0 +1,38 @@
+﻿@{ Layout = null; }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a simple Web Page for Angular Learning!">
+    <meta name="author" content="Aditi Training Team">
+    <title>Learning Angular Web v1.0</title>
+
+    <link rel="icon" href="~/Images/favicon.ico" />
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/c3.min.css"/>
+    <link rel="stylesheet" href="~/Content/navbar.css" />
+    <link rel="stylesheet" href="~/Content/jumbotron.css" />
+    <link rel="stylesheet" href="~/Content/app.css" />
+</head>
+<body>
+
+    <aditi-global-header></aditi-global-header>
+
+    <div class="container">
+
+        <br/>
+
+        <div ng-view></div>
+
+        <hr />
+
+        <aditi-global-footer></aditi-global-footer>
+    </div>
+
+    <script src="~/Scripts/require.js" data-main="/js/main"></script>
+
+</body>
+</html>

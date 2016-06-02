@@ -1,0 +1,8 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\obj\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\obj\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\bin\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\obj\Debug\Aditi.Libraries.SOA.Contracts.Data.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.SOA.Contracts.Data\obj\Debug\Aditi.Libraries.SOA.Contracts.Data.pdb

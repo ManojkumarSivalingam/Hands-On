@@ -1,0 +1,14 @@
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Impl.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Impl.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.pdb
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\obj\Debug\Aditi.Libraries.Web.Extensibility.Impl.csprojResolveAssemblyReference.cache
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\obj\Debug\Aditi.Libraries.Web.Extensibility.Impl.dll
+D:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\obj\Debug\Aditi.Libraries.Web.Extensibility.Impl.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Impl.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Impl.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\bin\Debug\Aditi.Libraries.Web.Extensibility.Interfaces.pdb
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\obj\Debug\Aditi.Libraries.Web.Extensibility.Impl.csprojResolveAssemblyReference.cache
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\obj\Debug\Aditi.Libraries.Web.Extensibility.Impl.dll
+E:\000 - Modern Web Training\Demos\NTierCSSolution\Aditi.Libraries.Web.Extensibility.Impl\obj\Debug\Aditi.Libraries.Web.Extensibility.Impl.pdb

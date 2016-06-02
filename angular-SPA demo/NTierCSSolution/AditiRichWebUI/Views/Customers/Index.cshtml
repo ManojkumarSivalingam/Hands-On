@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Customer>
+
+<br />
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="well well-sm">
+            <h5>CRM System</h5>
+            <h6>This would help to manage customer information from CRM System.</h6>
+
+            @{ Html.RenderPartial( "CustomersSearchPanelView" ); }
+        </div>
+
+        <div>
+            @CustomersViewHelper.RenderCustomers( Model )
+        </div>
+    </div>
+</div>

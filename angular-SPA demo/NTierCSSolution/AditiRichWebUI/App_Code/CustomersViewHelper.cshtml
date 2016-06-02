@@ -1,0 +1,34 @@
+﻿@helper RenderCustomers(IEnumerable<Aditi.Libraries.SOA.Contracts.Data.Customer> customers)
+{
+    <table class="table table-bordered table-hover table-responsive">
+        <thead>
+            <tr>
+                <th>Customer #</th>
+                <th>Business Name</th>
+                <th>Credit Limit ($)</th>
+                <th>Active Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach ( var customer in customers )
+            {
+                @RenderCustomer( customer )
+            }
+        </tbody>
+    </table>
+}
+
+@helper RenderCustomer(Aditi.Libraries.SOA.Contracts.Data.Customer customer)
+{
+    <tr>
+        <td>
+            <a href="customers/details?customerId=@customer.CustomerId" title="Details of @customer.CustomerName">
+                @customer.CustomerId
+            </a>
+        </td>
+        <td> @customer.CustomerName </td>
+        <td> @customer.CreditLimit </td>
+        <td> @customer.ActiveStatus </td>
+    </tr>
+}

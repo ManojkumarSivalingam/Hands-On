@@ -1,0 +1,17 @@
+Final Source Code Link -- https://github.com/TryCatchLearn/DatingApp
+
+
+view dotnet CLI version 
+PS> dotnet --info
+
+add dev cert as trusted
+PS> dotnet dev-certs https --trust
+
+run Project
+PS> dotnet run
+
+watch files while running
+PS> dotnet watch run
+
+install ef tools from nuget - will not work in visul studio
+dotnet tool install --global dotnet-ef --version 5.0.11

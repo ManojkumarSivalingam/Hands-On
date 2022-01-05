@@ -24,3 +24,15 @@ remove migration
 PS> dotnet ef migrations remove
 
 run mirgation and update database
+dotnet ef database update
+
+----------------
+Angular 12
+----------------
+install angular from npm cli
+npm install -g @angular/cli@12
+
+check angular version
+ng --version
+
+

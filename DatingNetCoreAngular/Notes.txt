@@ -35,4 +35,30 @@ npm install -g @angular/cli@12
 check angular version
 ng --version
 
+angular generate command from CLI
+ng generate   (Shorthand -> ng g)
+
+Angular generate -avaiable features and options
+	app-shell
+    application
+    class
+    component
+    directive
+    enum
+    guard
+    interceptor
+    interface
+    library
+    module
+    pipe
+    resolver
+    service
+    service-worker
+    web-worker
+	
+
+angular cli help to list all available sub options 
+--help  (Shorthand --h)
+
+
 

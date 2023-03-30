@@ -1,4 +1,5 @@
 Final Source Code Link -- https://github.com/TryCatchLearn/DatingApp
+https://visualgo.net
 
 
 view dotnet CLI version 
@@ -30,13 +31,13 @@ PS> dotnet ef database update
 Angular 12
 ----------------
 install angular from npm cli
-npm install -g @angular/cli@12
+PS> npm install -g @angular/cli@12
 
 check angular version
-ng --version
+PS> ng --version
 
 angular generate command from CLI
-ng generate   (Shorthand -> ng g)
+PS> ng generate   (Shorthand -> ng g)
 
 Angular generate -avaiable features and options
 	app-shell
@@ -60,5 +61,6 @@ Angular generate -avaiable features and options
 angular cli help to list all available sub options 
 --help  (Shorthand --h)
 
-
+angular build and run application
+PS> ng serve
 

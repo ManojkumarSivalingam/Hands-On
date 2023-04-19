@@ -1,4 +1,5 @@
-﻿using API.Entities;
+﻿using API.Data.Converters;
+using API.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,12 @@ namespace API.Data
         public DataContext(DbContextOptions options) : base(options)
         {
         }
-
+        protected override void ConfigureConventions(ModelConfigurationBuilder builder)
+        {
+            builder.Properties<DateOnly>()
+                   .HaveConversion<DateOnlyConverter>()
+                   .HaveColumnType("date");
+        }
         public DbSet<AppUser> Users { get; set; }
     }
 }
